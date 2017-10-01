@@ -1,7 +1,8 @@
+import java.io.Serializable;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 
-public class Inventory {
+public class Inventory implements Serializable{
 
     private ArrayList<Vehicle> vehicleList = new ArrayList<>();
 

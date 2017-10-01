@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.text.NumberFormat;
 
-public class Vehicle {
+public class Vehicle implements Serializable{
 
     protected String makeModel = "";
     protected int modelYear;
